@@ -216,7 +216,7 @@ td, th {
 }
 
 .lista-beneficios {
-	width: 40%;
+	width: 80%;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -225,12 +225,12 @@ td, th {
 	line-height: 1.5;
 }
 
-.itens:first-child {
+/*.itens:first-child {
 	font-weight: bold;
-}
+} */
 
 .itens:before {
-	content: "🟊";
+	content: "\00bb  ";
 }
 
 .imagem-beneficios {
