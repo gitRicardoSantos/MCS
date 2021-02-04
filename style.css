@@ -251,17 +251,19 @@ td, th {
 
 .menu-abrir,
 .menu-fechar {
-    background: none;
+    background: #FFFFFF;
     border: 0;
     outline: 0;
     -webkit-appearance: none;
     font-size: 1.6em;
     text-indent: -999em;
+	
 }
 
 .menu-abrir {
     height: 0;
     width:.75em;
+	color: #FFFFFF;
     padding-top:.125em;
     border-top: .375em double #000;
     border-bottom: .125em solid #000;
@@ -271,6 +273,8 @@ td, th {
 }
 
 .menu-fechar {
+	background: #6e6868;
+	color: #FFFFFF;
     position: relative;
     height: 1em;
     width: 1em;
@@ -287,6 +291,7 @@ td, th {
     .menu-abrir,
     .menu-fechar {
         display: none;
+		color: #FFFFFF;
     }    
 }
 
@@ -334,6 +339,7 @@ td, th {
     }
     .menu-ativo .barra-nav {
         left: 0;
+		color: #FFFFFF;
     }
 
     .menu-ativo:after {
@@ -351,5 +357,6 @@ td, th {
 	
 	.menu-principal li {
 		display: block;
+		color: #FFFFFF;
 	}
 }
