@@ -211,7 +211,7 @@ td, th {
 	font-weight: bold;
 }
 
-.conteudo-solucoes {
+.solucoes-conteudo {
 	width: 70%;
 	margin: 0 auto;
 }
@@ -297,7 +297,7 @@ td, th {
 }
 
 @media screen and (max-width: 600px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .visao-conteudo, .solucoes-conteudo, .video, .solucoes {
 		width: auto;
 	}
 
