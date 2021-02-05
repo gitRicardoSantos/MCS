@@ -168,7 +168,7 @@ td, th {
 .principal {
 	padding: 3em 0;
 	background: #FEFEFE;
-	width: 940px;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -184,38 +184,39 @@ td, th {
 	font-style: italic;
 }
 
-.utensilios {
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-.mapa {
+.visao {
 	padding: 3em 0;
 	background: linear-gradient(#FEFEFE, #888888);
 }
 
-.mapa-conteudo {
-	width: 940px;
+.visao strong {
+	font-weight: bold;
+}
+
+.visao-conteudo {
 	margin: 0 auto;
+	width: 70%;
 }
 
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
+.visao p {
+	margin: 0 0 1em;
 }
 
-.beneficios {
+.solucoes {
 	padding: 3em 0;
 	background: #888888;
 }
 
-.conteudo-beneficios {
-	width: 640px;
+.solucoes strong {
+	font-weight: bold;
+}
+
+.conteudo-solucoes {
+	width: 70%;
 	margin: 0 auto;
 }
 
-.lista-beneficios {
+.lista-solucoes {
 	width: 80%;
 	display: inline-block;
 	vertical-align: top;
